@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardsContainer - Initial Render Check if UI doesnt break for invalid data 1`] = `
+<div>
+  <div
+    class="card-container"
+  >
+    <div
+      class="card"
+    >
+      <div
+        class=""
+        data-testid="data-card"
+      >
+        <div>
+          <h3>
+            <u>
+              Name
+            </u>
+          </h3>
+           
+          <h2>
+            <i>
+              N/A
+            </i>
+          </h2>
+        </div>
+         
+        <div>
+          <h3>
+            <u>
+              House
+            </u>
+          </h3>
+           
+          <h2>
+            <i>
+              N/A
+            </i>
+          </h2>
+        </div>
+         
+        <div>
+          <h3>
+            <u>
+              Quote
+            </u>
+          </h3>
+           
+          <h2>
+            <i>
+              N/A
+            </i>
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

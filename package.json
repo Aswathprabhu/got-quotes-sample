@@ -1,0 +1,64 @@
+{
+  "name": "vue",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "5.16.3",
+    "@vue/cli-plugin-babel": "4.1.1",
+    "isomorphic-fetch": "^3.0.0",
+    "jest": "27.5.1",
+    "miragejs": "0.1.43",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@testing-library/vue": "^5.8.2",
+    "@vue/cli-plugin-eslint": "4.1.1",
+    "@vue/cli-service": "4.1.1",
+    "@vue/vue2-jest": "*",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^27.5.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.0.1",
+    "jest-serializer-vue": "^2.0.2",
+    "vue-router": "^3.5.3",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "keywords": [
+    "vue",
+    "vuejs",
+    "starter"
+  ],
+  "description": "Vue.js example starter project"
+}
