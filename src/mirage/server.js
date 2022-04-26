@@ -26,9 +26,9 @@ export function makeServer({ environment = 'test' }) {
       server.createList('quote', 20);
     },
     routes() {
-      this.passthrough('https://game-of-thrones-quotes.herokuapp.com/**');
-      this.urlPrefix = 'https://game-of-thrones-quotes.herokuapp.com';
-      this.namespace = '/v1';
+      this.passthrough('https://got-quotes-api.vercel.app/**');
+      this.urlPrefix = 'https://got-quotes-api.vercel.app';
+      this.namespace = '/api';
       isTestEnv(environment) && getRoutes.bind(this)();
     },
     serializers: {
