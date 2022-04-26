@@ -37,7 +37,7 @@ export default {
   methods: {
     fetchResults(count) {
       return fetch(
-        `https://game-of-thrones-quotes.herokuapp.com/v1/random/${count}`
+        `https://got-quotes-api.vercel.app/api/random/${count}`
       )
         .then((res) => res.json())
         .then((res) => (this.result = Array.isArray(res) ? res : [res]))
